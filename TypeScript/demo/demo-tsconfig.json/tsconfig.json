@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "files": ["src/a.ts", "src/b.ts"],
+  "include": ["src/**/*"],
+  "exclude": ["src/a.ts", "src/c.ts"]
+}
