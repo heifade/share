@@ -1,8 +1,5 @@
 ## tsconfig.json
 
-
-<a href="../../README.md#tsconfigjson">[返回]</a>
-
 ```json
 {
   "compilerOptions": {
@@ -25,12 +22,10 @@
 - include 指定 ts 源文件
 - exclude 排除 ts 源文件
 
-_使用"include"引入的文件可以使用"exclude"属性过滤，但"exclude"不能过滤"files"中的文件。上面例子中src/c.ts将不会被编译_
-
+_使用"include"引入的文件可以使用"exclude"属性过滤，但"exclude"不能过滤"files"中的文件。上面例子中 src/c.ts 将不会被编译_
 
 ### 通配符
-- \* 匹配0或多个字符（不包括目录分隔符）
+
+- \* 匹配 0 或多个字符（不包括目录分隔符）
 - \? 匹配一个任意字符（不包括目录分隔符）
 - \*\*\/ 递归匹配任意子目录
-
-<a href="../../README.md#tsconfigjson">[返回]</a>

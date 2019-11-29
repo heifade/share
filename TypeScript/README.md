@@ -31,7 +31,7 @@ tsc # 根据 tsconfig.json 配置来编译
 ```
 
 ### [配置文件 tsconfig.json](./demo/demo-tsconfig.json/README.md)
-<a name="tsconfigjson"></a>
+
 如果一个目录存在 tsconfig.json，这个目录就是 TS 项目的根目录
 
 - 命令 tsc 且参数为 \*.ts，编译此.ts 文件成 .js
@@ -49,59 +49,22 @@ tsc # 根据 tsconfig.json 配置来编译
 
 ### [基础类型](./demo/demo-basetype/README.md)
 
-<a name="basetype"></a>
+### [变量声明](./demo/demo-declare/README.md)
 
-### 变量声明
+### [方法](./demo/demo-function/README.md)
 
-- 支持 es6 的变量声明，var，let，const
+### [接口](./demo/demo-interface/README.md)
 
-### 类型断言
+### [类](./demo/demo-class/README.md)
 
-- 类型断言好比其它语言里的类型转换，两种方式： as 与 <类型>，这两种方式等价
+### [泛型](./demo/demo-generic/README.md)
 
-### 接口
+### [类型推论](./demo/demo-inference/README.md)
 
-接口的作用就是为类型命名和为你的代码或第三方代码定义契约
+### [类型兼容性](./demo/demo-compatibility/README.md)
 
-### 接口可选属性
+### [高级类型](./demo/demo-senior/README.md)
 
-在属性后面加“？”，变成可选属性
+### [模块](./demo/demo-module/README.md)
 
-### 接口只读属性
-
-### 函数类型接口
-
-### 类接口
-
-接口描述了类的公共部分，而不是公共和私有两部分。 它不会帮你检查类是否具有某些私有成员。
-
-### 接口继承
-
-- 继承一个
-- 继承多个
-
-### 函数
-
-### 泛型
-
-### 类型兼容性
-
-### 交叉类型
-
-### 联合类型 
-
-### 类
-
-### 类中访问修饰符
-
-### 构造函数用 protected 修饰时
-
-### 类只读属性
-
-### 类的兼容性
-
-### 抽象类
-
-抽象类做为其它派生类的基类使用。 它们一般不会直接被实例化。 不同于接口，抽象类可以包含成员的实现细节。 abstract 关键字是用于定义抽象类和在抽象类内部定义抽象方法。
-
-### 编译 tsc
+## [命名空间](./demo/demo-namespace/README.md)
