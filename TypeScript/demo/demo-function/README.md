@@ -11,7 +11,7 @@ let myAdd: (x: number, y: number) => number = function(
 };
 ```
 
-类型可以省略
+函数接口可以省略
 ```ts
 let myAdd = function(x: number, y: number): number {
   return x + y;
