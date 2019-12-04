@@ -1,0 +1,24 @@
+{
+  "name": "demo-project-sum",
+  "version": "1.0.1",
+  "description": "求两数之和",
+  "main": "dist/sum.js",
+  "module": "dist/sum.js",
+  "typings": "dist/sum.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./src/index.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "学习TS"
+  ],
+  "author": "heifade",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}

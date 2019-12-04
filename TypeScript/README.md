@@ -38,3 +38,7 @@ npm i ts-node -g
 ### 5. [配置文件 demo-tsconfig](./demo/demo-tsconfig/README.md)
 
 ### 6. [TypeScript 语法](./README_TS.md)
+
+### 7. [TypeScript 项目](./demo/demo-project/README.md)
+
+### 8. [TypeScript 项目 发布到 npm](./demo/demo-project-sum/README.md)
