@@ -33,20 +33,8 @@ npm i ts-node -g
 
 ### 3. [调试 demo-debug](./demo/demo-debug/README.md)
 
-### 4. 运行
-
-1. 直接运行 ts
-
-```cmd
-ts-node index.ts
-```
-
-2. 运行 js
-
-```cmd
-node index.js
-```
+### 4. [运行 demo-run](./demo/demo-run/README.md)
 
 ### 5. [配置文件 demo-tsconfig](./demo/demo-tsconfig/README.md)
 
-### 6. [TypeScript语法](./README_TS.md)
+### 6. [TypeScript 语法](./README_TS.md)
