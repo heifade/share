@@ -1,0 +1,20 @@
+
+
+> 配置文件：.vscode/launch.json
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "启动程序",
+      "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+      "cwd": "${workspaceRoot}",
+      "args": ["${workspaceRoot}/src/index.ts"],
+      "protocol": "inspector"
+    }
+  ]
+}
+```

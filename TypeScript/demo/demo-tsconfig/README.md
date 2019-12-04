@@ -1,3 +1,8 @@
+_如果一个目录存在 tsconfig.json，这个目录就是 TS 项目的根目录_
+
+- 不带任何输入文件的情况下调用 tsc，编译器会在当前目录查找 tsconfig.json 文件，如果当前目录没有，逐级向上搜索。
+- 不带任何输入文件的情况下调用 tsc，且参数 --project 或 -p 指定一个包含 tsconfig.json 文件的目录
+
 ## tsconfig.json
 
 ```json

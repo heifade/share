@@ -84,12 +84,21 @@ let value1: null = null;
 let value1: undefined = undefined;
 ```
 
-- Never 永不存在的值的类型
+_默认情况下，null 与 undefined 是所有类型的子类，可以将 null 与 undefined 赋值给任何类型。 当指定 strictNullChecks = true 时 null 与 undefined 只能赋值给 void 与它们自己_
+
+- Never 永不存在的值的类型，一般用于函数上，表过函数一定不可能执行完(中途会抛错)
 
 ```ts
 function error(message: string): never {
   throw new Error(message);
 }
+```
+
+- Void 表达没有任何类型，一般用于函数返回值上，表示函数没有返回值
+
+```ts
+function print(a: string): void {}
+console.log(print("a")); // undefined
 ```
 
 - Object 对象类型
@@ -99,4 +108,22 @@ let user: object = {
   name: "djd",
   age: 25
 };
+```
+
+## 类型断言
+
+```ts
+const a: any = "123";
+const b: string = a as string; // 断言 a 是 string
+const c: string = <string>a; // 断言 a 是 string
+```
+
+_类型断言，不会转换数据类型_
+
+```ts
+const a: any = "abc";
+const b: number = a as number; // 断言 a 是 number
+console.log(typeof b); // string
+const c: number = Number(a); // 类型转换
+console.log(c); // NaN
 ```

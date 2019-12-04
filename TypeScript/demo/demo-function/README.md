@@ -3,7 +3,7 @@
 
 ### 函数据完整式
 ```ts
-let myAdd: (x: number, y: number) => number = function(
+const myAdd: (x: number, y: number) => number = function(
   x: number,
   y: number
 ): number {
@@ -13,7 +13,7 @@ let myAdd: (x: number, y: number) => number = function(
 
 函数接口可以省略
 ```ts
-let myAdd = function(x: number, y: number): number {
+const myAdd = function(x: number, y: number): number {
   return x + y;
 };
 ```
