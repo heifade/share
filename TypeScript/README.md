@@ -17,16 +17,26 @@ Google 公司与微软合作，用 TS 写了 Angular2
 
 ### 1. TS 的安装
 
-1. 安装 typescript
-
+1. 安装 tyarn 
 ```cmd
-npm i typescript -g
+npm i yarn tyarn -g
 ```
 
-2. 安装 ts-node
+2. 使用 tyarn
+```cmd
+tyarn add typescript
+```
+
+3. 安装 typescript
 
 ```cmd
-npm i ts-node -g
+tyarn add global typescript
+```
+
+4. 安装 ts-node
+
+```cmd
+tyarn add global ts-node
 ```
 
 ### 2. [编译 demo-tsc](./demo/demo-tsc/README.md)
