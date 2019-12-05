@@ -1,0 +1,12 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "target": "ES5",
+    "jsx": "react",
+    "module": "esnext",
+    "declaration": true,
+    "sourceMap": true
+  }
+}
